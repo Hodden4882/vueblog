@@ -1,0 +1,12 @@
+package com.hodden.util;
+
+import com.hodden.shiro.AccountProfile;
+import org.apache.shiro.SecurityUtils;
+
+public class ShiroUtil {
+
+    public static AccountProfile getProfile() {
+        return (AccountProfile) SecurityUtils.getSubject().getPrincipal();
+    }
+
+}
