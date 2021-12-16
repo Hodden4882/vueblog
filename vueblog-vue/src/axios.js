@@ -6,7 +6,7 @@ import store from './store'
 
 axios.defaults.baseURL = "http://localhost:8081"
 
-// 前置拦截
+// 前置攔截
 axios.interceptors.request.use(config => {
   return config
 })
@@ -14,9 +14,6 @@ axios.interceptors.request.use(config => {
 axios.interceptors.response.use(response => {
     let res = response.data;
 
-    console.log("=================")
-    console.log(res)
-    console.log("=================")
 
     if (res.code === 200) {
       return response
