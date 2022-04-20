@@ -1,9 +1,7 @@
 # Vueblog
 作品名稱:vueblog
 
-是一個功能很簡單的blog,實現前後分離,主要使用Springboot+vue製作
-
-也是我第一個作品,1-2週後也許有第二個作品.
+是一個功能很簡單的blog,實現前後分離,主要使用Springboot+vue製作.
 
 
 # 前端
